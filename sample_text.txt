@@ -1,0 +1,30 @@
+# Create a sample document
+sample_text = """
+Project Alpha Report
+Date: October 2024
+
+Project Overview:
+Project Alpha is a new initiative to develop an AI-powered document analysis system. 
+The project aims to create tools that can understand, summarize, and answer questions about technical documents.
+
+Team Members:
+- Dr. Sarah Chen (Lead Researcher)
+- Mark Johnson (Software Engineer)
+- Emily Davis (Data Scientist)
+- Alex Kim (UX Designer)
+
+Key Milestones:
+1. Requirements gathering - Completed (Sept 2024)
+2. Prototype development - In progress (Due Nov 2024)
+3. Testing phase - Scheduled (Dec 2024)
+4. Deployment - Planned (Jan 2025)
+
+Technical Specifications:
+The system uses transformer-based models for natural language processing. 
+It supports PDF, DOCX, and TXT file formats. 
+The backend is built with Python and uses ChromaDB for vector storage.
+
+Budget: $150,000
+Timeline: 6 months
+Status: On track
+"""
