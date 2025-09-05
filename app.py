@@ -123,7 +123,7 @@ def generate_response(query, context, conversation_history=[]):
             history_prompt += f"{role}: {msg['content']}\n"
     
     prompt = f"""You are a helpful AI assistant. Answer the user's question based ONLY on the provided context.
-If the context doesn't contain enough information to answer the question clearly, say "I don't have enough information to answer that based on the provided documents."
+If the context doesn't contain enough information to answer the question clearly, say "I don't have enough information to answer that based on the provided documents. Please refer to the documents or ask a different question."
 
 Context from documents:
 {context}
@@ -136,6 +136,9 @@ Instructions:
 - Base your answer strictly on the context provided
 - If unsure, say you don't know rather than guessing
 - Format your response clearly
+- Use bullet points or numbered lists if applicable
+- Always cite the source of your information from the context
+- If the context is empty or irrelevant, respond with "I don't have enough information to answer that based on the provided documents."
 
 Answer:"""
     
