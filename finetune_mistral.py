@@ -98,3 +98,5 @@ trainer.model.save_pretrained("fine_tuned_mistral_rag")
 # merged_model = model.merge_and_unload()
 # merged_model.save_pretrained("full_fine_tuned_model")
 print("Training complete and model saved!")
+
+## I have added this file in the github repo as well.
